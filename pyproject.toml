@@ -18,7 +18,7 @@ include = [
 [project]
 
 name = "calculith"
-version = "1.5.0"
+version = "0.1.0"
 description = "Calculith - One of the most powerful math engines ever existed"
 requires-python = "~=3.12"
 license = "MIT"
