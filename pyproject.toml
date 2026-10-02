@@ -1,0 +1,36 @@
+[build-system]
+
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+
+packages = ["src/calculith/"]
+
+[tool.hatch.build.targets.sdist]
+
+include = [
+    "src/calculith/**/*.py",
+    "src/calculith/**/*.pyi",
+    "src/calculith/py.typed",
+]
+
+[project]
+
+name = "calculith"
+version = "1.5.0"
+description = "Calculith - One of the most powerful math engines ever existed"
+requires-python = "~=3.12"
+license = "MIT"
+readme = "README.md"
+authors = [
+    {name = "Nerina0Coder", email = "github.py.coder@gmail.com"},
+]
+dependencies = [
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
